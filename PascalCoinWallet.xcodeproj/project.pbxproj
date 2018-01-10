@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5693098B712ACEA76E100F7A /* Pods_PascalCoinWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D09F4D1B080FE5CBC25E85 /* Pods_PascalCoinWallet.framework */; };
+		B4D08A6ABD0E56D1D1620365 /* Pods_PascalCoinWalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A583ECA22EF9E3F3A6804E8C /* Pods_PascalCoinWalletUITests.framework */; };
+		C092E08FE3F69258C9D7E7CD /* Pods_PascalCoinWalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08625048C6E122E26C16196F /* Pods_PascalCoinWalletTests.framework */; };
 		F91508722005949C000F4084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91508712005949C000F4084 /* AppDelegate.swift */; };
 		F91508742005949C000F4084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91508732005949C000F4084 /* ViewController.swift */; };
 		F91508772005949C000F4084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91508752005949C000F4084 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		F915087C2005949C000F4084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F915087A2005949C000F4084 /* LaunchScreen.storyboard */; };
 		F91508872005949C000F4084 /* PascalCoinWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91508862005949C000F4084 /* PascalCoinWalletTests.swift */; };
 		F91508922005949C000F4084 /* PascalCoinWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91508912005949C000F4084 /* PascalCoinWalletUITests.swift */; };
+		F91508A020059826000F4084 /* PascalCoinAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F915089F20059826000F4084 /* PascalCoinAPIClient.swift */; };
+		F91508A320059EED000F4084 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91508A220059EED000F4084 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08625048C6E122E26C16196F /* Pods_PascalCoinWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PascalCoinWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7934C05C85F700830CE7C /* Pods-PascalCoinWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWalletTests/Pods-PascalCoinWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		1422F7A92FC6BA34F4FB9A87 /* Pods-PascalCoinWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWallet/Pods-PascalCoinWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		175F577D3BEE9A9074061359 /* Pods-PascalCoinWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWallet/Pods-PascalCoinWallet.release.xcconfig"; sourceTree = "<group>"; };
+		A583ECA22EF9E3F3A6804E8C /* Pods_PascalCoinWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PascalCoinWalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA8A029B2EA1726BBF2F20F /* Pods-PascalCoinWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWalletTests/Pods-PascalCoinWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D09F4D1B080FE5CBC25E85 /* Pods_PascalCoinWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PascalCoinWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F844B0C00F8C494F374C6DE0 /* Pods-PascalCoinWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWalletUITests/Pods-PascalCoinWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F915086E2005949C000F4084 /* PascalCoinWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PascalCoinWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91508712005949C000F4084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F91508732005949C000F4084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		F915088D2005949C000F4084 /* PascalCoinWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PascalCoinWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91508912005949C000F4084 /* PascalCoinWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCoinWalletUITests.swift; sourceTree = "<group>"; };
 		F91508932005949C000F4084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F915089F20059826000F4084 /* PascalCoinAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCoinAPIClient.swift; sourceTree = "<group>"; };
+		F91508A220059EED000F4084 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FBEA60BFB54A27793368A6A7 /* Pods-PascalCoinWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PascalCoinWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PascalCoinWalletUITests/Pods-PascalCoinWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5693098B712ACEA76E100F7A /* Pods_PascalCoinWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C092E08FE3F69258C9D7E7CD /* Pods_PascalCoinWalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D08A6ABD0E56D1D1620365 /* Pods_PascalCoinWalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AADABBF7624D01ED7B58756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D09F4D1B080FE5CBC25E85 /* Pods_PascalCoinWallet.framework */,
+				08625048C6E122E26C16196F /* Pods_PascalCoinWalletTests.framework */,
+				A583ECA22EF9E3F3A6804E8C /* Pods_PascalCoinWalletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C617297CEF70FDE1B676D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1422F7A92FC6BA34F4FB9A87 /* Pods-PascalCoinWallet.debug.xcconfig */,
+				175F577D3BEE9A9074061359 /* Pods-PascalCoinWallet.release.xcconfig */,
+				CAA8A029B2EA1726BBF2F20F /* Pods-PascalCoinWalletTests.debug.xcconfig */,
+				0FC7934C05C85F700830CE7C /* Pods-PascalCoinWalletTests.release.xcconfig */,
+				FBEA60BFB54A27793368A6A7 /* Pods-PascalCoinWalletUITests.debug.xcconfig */,
+				F844B0C00F8C494F374C6DE0 /* Pods-PascalCoinWalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F91508652005949C000F4084 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				F91508852005949C000F4084 /* PascalCoinWalletTests */,
 				F91508902005949C000F4084 /* PascalCoinWalletUITests */,
 				F915086F2005949C000F4084 /* Products */,
+				C9C617297CEF70FDE1B676D4 /* Pods */,
+				1AADABBF7624D01ED7B58756 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +141,10 @@
 		F91508702005949C000F4084 /* PascalCoinWallet */ = {
 			isa = PBXGroup;
 			children = (
+				F91508A1200599E1000F4084 /* Models */,
 				F91508712005949C000F4084 /* AppDelegate.swift */,
 				F91508732005949C000F4084 /* ViewController.swift */,
+				F915089F20059826000F4084 /* PascalCoinAPIClient.swift */,
 				F91508752005949C000F4084 /* Main.storyboard */,
 				F91508782005949C000F4084 /* Assets.xcassets */,
 				F915087A2005949C000F4084 /* LaunchScreen.storyboard */,
@@ -125,6 +171,14 @@
 			path = PascalCoinWalletUITests;
 			sourceTree = "<group>";
 		};
+		F91508A1200599E1000F4084 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F91508A220059EED000F4084 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F91508962005949C000F4084 /* Build configuration list for PBXNativeTarget "PascalCoinWallet" */;
 			buildPhases = (
+				41E8532CB82CCDDF2E7155A2 /* [CP] Check Pods Manifest.lock */,
 				F915086A2005949C000F4084 /* Sources */,
 				F915086B2005949C000F4084 /* Frameworks */,
 				F915086C2005949C000F4084 /* Resources */,
+				3DE091837EB57F075D8FA6B9 /* [CP] Embed Pods Frameworks */,
+				1E4936EA395828A79B528DDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F91508992005949C000F4084 /* Build configuration list for PBXNativeTarget "PascalCoinWalletTests" */;
 			buildPhases = (
+				7D35C8219E75DD970C4741E3 /* [CP] Check Pods Manifest.lock */,
 				F915087E2005949C000F4084 /* Sources */,
 				F915087F2005949C000F4084 /* Frameworks */,
 				F91508802005949C000F4084 /* Resources */,
+				41AAE634DD64B93AFDC146AC /* [CP] Embed Pods Frameworks */,
+				4862538E27BDE3AC9085516C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F915089C2005949C000F4084 /* Build configuration list for PBXNativeTarget "PascalCoinWalletUITests" */;
 			buildPhases = (
+				A689177A9EB273DF4CA88AF0 /* [CP] Check Pods Manifest.lock */,
 				F91508892005949C000F4084 /* Sources */,
 				F915088A2005949C000F4084 /* Frameworks */,
 				F915088B2005949C000F4084 /* Resources */,
+				7B1DF631F821005AC0C88263 /* [CP] Embed Pods Frameworks */,
+				9B95C12E83A882A13F6D544C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +317,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E4936EA395828A79B528DDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWallet/Pods-PascalCoinWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE091837EB57F075D8FA6B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWallet/Pods-PascalCoinWallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWallet/Pods-PascalCoinWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AAE634DD64B93AFDC146AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWalletTests/Pods-PascalCoinWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E8532CB82CCDDF2E7155A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PascalCoinWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4862538E27BDE3AC9085516C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWalletTests/Pods-PascalCoinWalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1DF631F821005AC0C88263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWalletUITests/Pods-PascalCoinWalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D35C8219E75DD970C4741E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PascalCoinWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B95C12E83A882A13F6D544C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PascalCoinWalletUITests/Pods-PascalCoinWalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A689177A9EB273DF4CA88AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PascalCoinWalletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F915086A2005949C000F4084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F91508742005949C000F4084 /* ViewController.swift in Sources */,
+				F91508A020059826000F4084 /* PascalCoinAPIClient.swift in Sources */,
 				F91508722005949C000F4084 /* AppDelegate.swift in Sources */,
+				F91508A320059EED000F4084 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +639,7 @@
 		};
 		F91508972005949C000F4084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1422F7A92FC6BA34F4FB9A87 /* Pods-PascalCoinWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +654,7 @@
 		};
 		F91508982005949C000F4084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175F577D3BEE9A9074061359 /* Pods-PascalCoinWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +669,7 @@
 		};
 		F915089A2005949C000F4084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA8A029B2EA1726BBF2F20F /* Pods-PascalCoinWalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +686,7 @@
 		};
 		F915089B2005949C000F4084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC7934C05C85F700830CE7C /* Pods-PascalCoinWalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +703,7 @@
 		};
 		F915089D2005949C000F4084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEA60BFB54A27793368A6A7 /* Pods-PascalCoinWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +719,7 @@
 		};
 		F915089E2005949C000F4084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F844B0C00F8C494F374C6DE0 /* Pods-PascalCoinWalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
