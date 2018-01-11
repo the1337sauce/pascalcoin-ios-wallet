@@ -14,8 +14,12 @@ enum APIClientError : Error {
 }
 
 class PascalCoinApiClient {
-
-  init() {}
+  
+  let host: String
+  
+  init(host: String="http://80.24.12.98:4003") {
+    self.host = host
+  }
   
   func fetchAccountInfo(accountNumber: Int, completionHandler: @escaping (Account?, APIClientError?) -> ())  {
     let body: [String : Any] = [
@@ -25,7 +29,7 @@ class PascalCoinApiClient {
       "params" : ["account": accountNumber]
     ]
     
-    Alamofire.request("http://80.24.12.98:4003", method: .post, parameters: body, encoding: JSONEncoding.default).responseJSON { response in
+    Alamofire.request(host, method: .post, parameters: body, encoding: JSONEncoding.default).responseJSON { response in
       
       guard let json = response.result.value as? [String: Any],
         let jsonResult = json["result"] as? [String: Any],
